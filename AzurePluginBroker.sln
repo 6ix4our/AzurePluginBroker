@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPluginServiceProvider", "CrmPluginServiceProvider\CrmPluginServiceProvider.csproj", "{77B12B6F-B5E0-447F-853E-22C4217815A5}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzurePluginBroker", "AzurePluginBroker\AzurePluginBroker.ccproj", "{90B35E7E-3F49-445E-B04E-2EC70F03F665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTopicPlugins", "AzureTopicPlugins\AzureTopicPlugins.csproj", "{22A86D6A-FDF1-4932-B74B-9F0C6EEABFE6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AzureServiceConfigurationManager", "AzureServiceConfigurationManager\AzureServiceConfigurationManager.shproj", "{9AF95B1B-D2A9-4F76-B394-F991434B662C}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AzureServiceConfigurationManager\ServiceConfigurationManager.projitems*{22a86d6a-fdf1-4932-b74b-9f0c6eeabfe6}*SharedItemsImports = 4
+		AzureServiceConfigurationManager\ServiceConfigurationManager.projitems*{9af95b1b-d2a9-4f76-b394-f991434b662c}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B12B6F-B5E0-447F-853E-22C4217815A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B12B6F-B5E0-447F-853E-22C4217815A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B12B6F-B5E0-447F-853E-22C4217815A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B12B6F-B5E0-447F-853E-22C4217815A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B35E7E-3F49-445E-B04E-2EC70F03F665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B35E7E-3F49-445E-B04E-2EC70F03F665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B35E7E-3F49-445E-B04E-2EC70F03F665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B35E7E-3F49-445E-B04E-2EC70F03F665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A86D6A-FDF1-4932-B74B-9F0C6EEABFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A86D6A-FDF1-4932-B74B-9F0C6EEABFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A86D6A-FDF1-4932-B74B-9F0C6EEABFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A86D6A-FDF1-4932-B74B-9F0C6EEABFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
